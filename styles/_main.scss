@@ -17,6 +17,21 @@ main {
     line-height: 12.8rem;
     letter-spacing: -1.24rem;
     color: var(--white);
+
+    span {
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    span:nth-child(1){
+      background-image: linear-gradient(90deg, #007cf0, #00dfd9);
+    }
+    span:nth-child(2){
+      background-image: linear-gradient(90deg, #7928ca, #ff0080);
+    }
+    span:nth-child(3){
+      background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+    }
   }
 
   .buttons {
@@ -53,13 +68,13 @@ main {
       }
 
     }
+  }
 
-    h2 {
-      margin-top: 6.4rem;
-      font-size: 2rem;
-      font-weight: 400;
-      letter-spacing: -0.04rem;
-    }
+  h2 {
+    margin-top: 6.4rem;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -0.04rem;
   }
 
 }

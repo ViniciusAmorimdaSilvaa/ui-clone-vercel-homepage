@@ -189,6 +189,13 @@ main .buttons > button:hover {
   border: 0.1rem solid var(--white);
 }
 
+main .buttons h2 {
+  margin-top: 6.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.04rem;
+}
+
 footer {
   color: var(--white);
   text-transform: uppercase;

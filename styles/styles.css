@@ -124,6 +124,15 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main h1 {
@@ -142,6 +151,42 @@ main h1 {
   line-height: 12.8rem;
   letter-spacing: -1.24rem;
   color: var(--white);
+}
+
+main .buttons {
+  margin-top: 6.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .buttons > button {
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 0.4rem;
+  margin: 1.2rem;
+  padding: 1.5rem 4.5rem;
+  border: 0.1rem solid var(--white);
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+main .buttons > button.outlined {
+  background-color: transparent;
+  color: var(--gray);
+  border: 0.1rem solid var(--gray);
+}
+
+main .buttons > button:hover {
+  background: transparent;
+  color: var(--white);
+  border: 0.1rem solid var(--white);
 }
 
 footer {

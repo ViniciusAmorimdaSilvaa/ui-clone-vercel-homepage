@@ -3,6 +3,9 @@ main {
 
   display: flex;
   flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
 
   h1 {
     display: flex;
@@ -14,6 +17,42 @@ main {
     line-height: 12.8rem;
     letter-spacing: -1.24rem;
     color: var(--white);
+  }
+
+  .buttons {
+    margin-top: 6.4rem;
+
+    display: flex;
+    align-items: center;
+
+    > button {
+      background-color: var(--white);
+      color: var(--black);
+      border-radius: 0.4rem;
+
+      margin: 1.2rem;
+      padding: 1.5rem 4.5rem;
+      border: 0.1rem solid var(--white);
+
+      font-size: 1.6rem;
+      font-weight: 500;
+
+      cursor: pointer;
+      transition: .2s ease-in;
+
+      &.outlined {
+        background-color: transparent;
+        color: var(--gray);
+        border: 0.1rem solid var(--gray);
+      }
+
+      &:hover {
+        background: transparent;
+        color: var(--white);
+        border: 0.1rem solid var(--white);
+      }
+
+    }
   }
 
 }

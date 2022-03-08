@@ -3,7 +3,7 @@ Vercel UI Clone (Homepage)
 </h1>
 
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/70040371/157283567-f4988a1a-cecb-4652-9965-8c6c772cca27.png" width="300px">
+    <img src="https://user-images.githubusercontent.com/70040371/157283567-f4988a1a-cecb-4652-9965-8c6c772cca27.png" width="700px">
 </div>
 
 <p align="center"><a href="https://vercel.com">Vercel Homepage</a> UI clone for study purposes.</p>
